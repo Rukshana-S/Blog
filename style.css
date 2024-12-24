@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'poppins',sans-serif;
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding: 30px;
+    background-color: rgb(10, 24, 3) ;
+    border-radius: 10px;
+}
+h1{
+    color:orange;
+    font-size: 20px;
+    font-weight: bold ;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    color: rgb(252, 255, 255);
+}
+nav ul li{
+    margin: 0 10px;
+    position: relative;
+}
+
+nav ul li a{
+color:rgb(78, 229, 176);
+text-decoration: none;
+color: white;}
