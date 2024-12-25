@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: pink;
 }
 
 header {
@@ -56,17 +56,22 @@ nav a:hover {
     
 }
 
-.container {
+.container h2 {
     padding: 20px;
+    text-align: center;
+    color:#040404;
+    font-size: 35px;
+    text-decoration: underline;
 }
 
-.spot{
+.title{
     margin-bottom: 40px;
     padding: 20px;
-    background: #ffffff;
+    background: pink;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 } 
 
 .section img{
@@ -75,7 +80,7 @@ nav a:hover {
 }
 
 .section {
-    margin-top: ;
+    margin-top: 20px;
     margin-bottom: 40px;
     padding: 15px;
     margin-left: 200px;
@@ -86,17 +91,31 @@ nav a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.section h3 {
+    color: #000000;
+    text-shadow:2px 2px 2px white;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 .section h2 {
     color: #333;
     margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.section p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
-.section img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-    border-radius: 5px;
+.section img{
+    height:500px;
+    width:800px;
 }
+
+
 
 .highlight {
     color: #d9534f;
@@ -120,7 +139,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Review Section */
+
 #reviews {
     background-color: #f4f4f4;
     padding: 20px;
@@ -174,7 +193,7 @@ footer a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Contact Section */
+
 #contact ul {
     list-style: none;
     padding: 0;
