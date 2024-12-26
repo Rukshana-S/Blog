@@ -1,216 +1,300 @@
 body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: pink;
+}
+
+header {
+    background: #021939;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color:#ffcc00;
+    font-style: italic;
+    text-align:center;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #e21e1e;
+}
+
+header h2{
+    margin:0;
+    font-size: 1.5rem;
+    text-align:center;
+    color:rgb(230, 39, 39);
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+nav {
+    background: #575252;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color:#ffcc00;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px #e21e1e;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(224, 57, 57);
+    text-shadow: 0.5px 0.5px #040404;
+    
+}
+
+.container h2 {
+    padding: 20px;
+    text-align: center;
+    color:#040404;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.title{
+    margin-bottom: 40px;
+    padding: 20px;
+    background: pink;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+} 
+.section img{
+    height:1000px;
+    width:800px;
+}
+
+.section{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: #e9e07e;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    color: #000000;
+    text-shadow:2px 2px 2px white;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.section h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.section p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.section img{
+    height:500px;
+    width:800px;
+}
+.image img{
+    height:500px;
+    width:800px;
+}
+
+.highlight {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Review Section */
+#reviews {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#reviews form {
+    margin-bottom: 20px;
+}
+
+#reviews label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#reviews input, #reviews textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#reviews button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reviews button:hover {
+    background-color: #555;
+}
+
+#reviewsList ul {
+    list-style: none;
+    padding: 0;
+}
+
+#reviewsList li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+#contact ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+/* Mobile View */
+@media (max-width: 768px) {
+    body {
         background-color: pink;
     }
-    
+
     header {
-        background: #021939;
-        color: #fff;
-        padding: 10px 20px;
-        text-align: center;
+        padding: 10px;
     }
-    
+
     header h1 {
-        margin: 0;
-        font-size: 2.5rem;
-        color:#ffcc00;
-        font-style: italic;
-        text-align:center;
-        font-weight:bold;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 2px 2px #e21e1e;
+        font-size: 2rem;
     }
-    
-    header h2{
-        margin:0;
-        font-size: 1.5rem;
-        text-align:center;
-        color:rgb(230, 39, 39);
-        font-weight:bold;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
+
+    header h2 {
+        font-size: 1.2rem;
     }
+
     nav {
-        background: #575252;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        padding: 10px 0;
+        flex-direction: column;
+        padding: 5px 0;
     }
-    
+
     nav a {
-        color:#ffcc00;
-        margin: 0 15px;
-        text-decoration: none;
-        font-weight: bold;
-        text-shadow: 0.5px 0.5px #e21e1e;
+        margin: 5px 0;
     }
-    
-    nav a:hover {
-        text-decoration: underline;
-        color: rgb(224, 57, 57);
-        text-shadow: 0.5px 0.5px #040404;
-        
-    }
-    
+
     .container h2 {
-        padding: 20px;
-        text-align: center;
-        color:#040404;
-        font-size: 35px;
-        text-decoration: underline;
+        font-size: 28px;
     }
-    
-    .title{
-        margin-bottom: 40px;
-        padding: 20px;
-        background: pink;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        text-align: center;
-    } 
-    
-    .section img{
-        height:1000px;
-        width:800px;
-    }
-    
-    .section {
-        margin-top: 20px;
-        margin-bottom: 40px;
+
+    .title {
         padding: 15px;
-        margin-left: 200px;
-        margin-right: 200px;
-        background: #e9e07e;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    
-    .section h3 {
-        color: #000000;
-        text-shadow:2px 2px 2px white;
-        margin-bottom: 10px;
-        font-weight: bolder;
-        font-size: 30px;
-    }
-    
-    .section h2 {
-        color: #333;
-        margin-bottom: 10px;
-        font-weight: bolder;
-        font-size: 50px;
-    }
-    .section p{
-        font-family:'Times New Roman', Times, serif;
-        font-size: 20px;
-    }
-    
-    .section img{
-        height:500px;
-        width:800px;
-    }
-    
-    
-    
-    .highlight {
-        color: #d9534f;
-        font-weight: bold;
-    }
-    
-    footer {
-        background: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px 0;
-        margin-top: 20px;
-    }
-    
-    footer a {
-        color: #ffcc00;
-        text-decoration: none;
-    }
-    
-    footer a:hover {
-        text-decoration: underline;
-    }
-    
-    /* Review Section */
-    #reviews {
-        background-color: #f4f4f4;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-    
-    #reviews form {
         margin-bottom: 20px;
     }
-    
-    #reviews label {
-        font-weight: bold;
-        margin-bottom: 5px;
-        display: inline-block;
+
+    .section {
+        margin: 10px;
+        padding: 10px;
     }
-    
-    #reviews input, #reviews textarea {
+
+    .section img {
+        height: auto;
         width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        box-sizing: border-box;
     }
-    
+
+    .section h3 {
+        font-size: 24px;
+    }
+
+    .section h2 {
+        font-size: 36px;
+    }
+
+    .section p {
+        font-size: 18px;
+    }
+
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+
+    #reviews {
+        padding: 10px;
+    }
+
+    #reviews input, #reviews textarea {
+        padding: 8px;
+    }
+
     #reviews button {
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
+        padding: 8px 16px;
     }
-    
-    #reviews button:hover {
-        background-color: #555;
-    }
-    
-    #reviewsList ul {
-        list-style: none;
-        padding: 0;
-    }
-    
+
     #reviewsList li {
-        background: #fff;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 8px;
     }
-    
-    /* Contact Section */
-    #contact ul {
-        list-style: none;
-        padding: 0;
-    }
-    
+
     #contact ul li {
-        margin: 10px 0;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
-    
-    #contact ul li a {
-        color: #333;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    
-    #contact ul li a:hover {
-        text-decoration: underline;
-        color: #555;
-    }
+}
